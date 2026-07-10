@@ -6,7 +6,7 @@ st.sidebar.title("Parámetros")
 st.image("PY.png")
 st.sidebar.image("DMC.png")
 
-modulo = st.sidebar.selectbox("Elija un módulo",["Módulo Listas","Módulo Array","Módulo Funciones"]
+modulo = st.sidebar.selectbox("Elija un módulo",["Módulo Listas","Módulo Array","Módulo Funciones"])
 
 if modulo == "Módulo Listas":
                               
