@@ -4,7 +4,7 @@ import numpy as np
 st.title("Proyecto módulo 1 Fundamentals")
 st.sidebar.title("Parámetros")
 
-st.image("Python_logo.png")
+st.image("python_logo.png")
 st.sidebar.image("DMC.png")
 
 modulo = st.sidebar.selectbox("Elija un módulo", ["Módulo Listas","Módulo Array","Módulo funciones"])
