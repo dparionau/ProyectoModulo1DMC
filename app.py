@@ -7,7 +7,7 @@ st.sidebar.title("Parámetros")
 st.image("PY.png")
 st.sidebar.image("DMC.png")
 
-modulo = st.sidebar.selectbox("Elija un módulo",["Módulo Listas","Módulo Array","Módulo Funciones"])
+modulo = st.sidebar.selectbox("Elija un módulo", ["Módulo Listas", "Módulo Array", "Módulo Funciones"])
 
 if modulo == "Módulo Listas":
                               
@@ -27,7 +27,9 @@ elif modulo == "Módulo Array":
   datos_produccion = np.random.randint(limite_inferior, limite_superior, cantidad_datos)
 
   st.write(datos_produccion
-  
+
+  st.write("La producción total es:" ,  np.sum(datos_produccion))
+  st.write("La producción promedio es:" , np.mean(datos_produccion) )
 
 else:
   st.write("Estás en el módulo de funciones")
